@@ -3,6 +3,7 @@ from strategies import HighIntensityStrategy, RecoveryStrategy, EnduranceStrateg
 
 
 def main() -> None:
+    print("=== STRATEGY PATTERN - STUDI KASUS: PERSIB BANDUNG ===")
     players = [
         "GK",  # Goalkeeper
         "LB",  # Left Back

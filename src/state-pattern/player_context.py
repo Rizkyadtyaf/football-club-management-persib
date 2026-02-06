@@ -24,4 +24,4 @@ class Player:
 
     def summary(self) -> None:
         izin = "BOLEH" if self.can_train() else "TIDAK BOLEH"  # Izin latihan berdasarkan state
-        print(f"[PEMAIN] {self._position} | status={self.status()} | latihan={izin}")  # Ringkasan
+        print(f"[PERSIB] {self._position} | status={self.status()} | latihan={izin}")  # Ringkasan

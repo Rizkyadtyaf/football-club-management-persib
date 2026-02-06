@@ -18,11 +18,11 @@ def main() -> None:
 
     players = [Player(pos) for pos in positions]  # Buat object Player untuk 11 posisi
 
-    print("=== STATUS AWAL TIM (11 PEMAIN) ===")
+    print("=== STATUS AWAL TIM PERSIB BANDUNG (11 PEMAIN) ===")
     for p in players:
         p.summary()  # Semua default FIT
 
-    print("\n=== SIMULASI TRANSISI STATE (CONTOH 3 POSISI) ===")
+    print("\n=== TRANSISI STATE PEMAIN PERSIB BANDUNG ===")
 
     cm = players[5]  # CM
     cm.injury()  # CM cedera

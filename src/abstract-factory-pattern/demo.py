@@ -1,16 +1,11 @@
-"""
-demo.py
-Main program untuk menjalankan Abstract Factory Pattern
-"""
+from factory import PersibFactory
 
-from abstract_factory import PersibSeniorFactory, PersibAcademyFactory
-from client import manage_club
+print("===== DEMO ABSTRACT FACTORY PERSIB =====")
 
+factory = PersibFactory()
 
-print("=== PERSIB SENIOR MANAGEMENT ===")
-senior_factory = PersibSeniorFactory()
-manage_club(senior_factory)
+player = factory.create_player()
+coach = factory.create_coach()
 
-print("\n=== PERSIB ACADEMY MANAGEMENT ===")
-academy_factory = PersibAcademyFactory()
-manage_club(academy_factory)
+print("Role:", player.get_role())
+print("Role:", coach.get_role())

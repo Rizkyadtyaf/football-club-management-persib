@@ -7,14 +7,14 @@ M Wildan (10122496)
 
 ---
 
-# ⚽ Football Club Management - Persib (Lazy-Poppins)
+# Football Club Management - Persib (Lazy-Poppins)
 
 Project ini merupakan implementasi berbagai Design Pattern menggunakan bahasa pemrograman Python dengan studi kasus manajemen klub sepak bola Persib Bandung.  
 Project ini dibuat untuk memenuhi tugas mata kuliah Clean Code & Design Pattern.
 
 ---
 
-# 📌 Design Pattern yang Diimplementasikan
+# Design Pattern yang Diimplementasikan
 
 - Abstract Factory Pattern
 - Chain of Responsibility Pattern
@@ -31,7 +31,7 @@ Project ini dibuat untuk memenuhi tugas mata kuliah Clean Code & Design Pattern.
 
 ---
 
-# ▶️ Cara Menjalankan Program
+# Cara Menjalankan Program
 
 1. Masuk ke folder project:
    ```bash

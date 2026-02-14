@@ -1,6 +1,6 @@
 # 👥 Anggota Kelompok
 
-Rizky Aditya (10122111)  
+Rizky Aditya Friatna (10122111)  
 Reyva Noor Fauzan Gunawan (10122089)  
 Mohamad Syeril Akbar (10122112)  
 M Wildan (10122496)
